@@ -11,7 +11,9 @@ class Anagram
     anagrams = []
     check_anagrams.each do |potential|
       potential = potential.split("").sort
-      
+      if potential == @word.split("").sort
+        anagrams << potential
+      end
   end
   
 end
