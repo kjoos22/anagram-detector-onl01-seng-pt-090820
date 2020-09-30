@@ -7,8 +7,11 @@ class Anagram
     @word = word
   end
   
-  def match(anagrams)
-    
+  def match(check_anagrams)
+    anagrams = []
+    check_anagrams.each do |potential|
+      potential = potential.split("").sort
+      
   end
   
 end
