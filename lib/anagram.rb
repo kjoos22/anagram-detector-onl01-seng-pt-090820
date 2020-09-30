@@ -15,6 +15,7 @@ class Anagram
         anagrams << potential
       end
     end
+    anagrams
   end
   
 end
