@@ -14,6 +14,7 @@ class Anagram
       if potential == @word.split("").sort
         anagrams << potential
       end
+    end
   end
   
 end
