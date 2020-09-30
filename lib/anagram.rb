@@ -10,8 +10,7 @@ class Anagram
   def match(check_anagrams)
     anagrams = []
     check_anagrams.each do |potential|
-      potential = potential.split("").sort
-      if potential == @word.split("").sort
+      if potential.split("").sort == @word.split("").sort
         anagrams << potential
       end
     end
